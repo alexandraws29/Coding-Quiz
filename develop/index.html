@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <ul>
+                <li><a href="">View The High Scores!</a></li>
+                <li class="timer" id="timer"></li>
+            </ul>
+        </header>
+        <div class="quiz-wrapper">
+            <main class="coverPage" id="coverPage">
+                <h1>Welcome to the JavaScript Fundamentals Quiz!</h1>
+                <p>The goal is to answer all the questions correctly before the time runs out.</p>
+                <p>The time you have left will be on the top right of the screen. When the time runs out, or you answer all the questions the game is over. You'll receive a point for every question answered correctly, as well as how much time you have left. When the game is over you can enter your high score and initials to see if you're the top of the class!</p>
+                <p>But <span>BEWARE</span> if you answer a question incorrectly you will lose time!</p>
+                <p><span>Good luck, and may the coding gods be with you!</span></p>
+                <button class="btn" id="beginQuiz">Begin the Quiz Now!</button>
+            </main>
+            <section class="answers" id="answers">
+                <button class="btn">A</button>
+                <button class="btn">B</button>
+                <button class="btn">C</button>
+                <button class="btn">D</button>
+            </section>
+            <section class="endCoverPage displayNone" id="endCoverPage">
+                <h1>Congratulations!</h1>
+                <p>Keep trying and improving your score, and you'll be the top of the class in no time!</p>
+                <button class="btn" id="startQuizOver">Take the Quiz Again</button>
+            </section>
+        </div>
+        <footer>
+            <p>&copy 2020 Alexandraws</p>
+        </footer>
+    </div>
+</body>
+</html>
