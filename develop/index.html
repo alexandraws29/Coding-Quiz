@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript Coding Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <ul>
-                <li><a href="">View The High Scores!</a></li>
-                <li class="timer" id="timer"></li>
-            </ul>
+                <p><a href="">View The High Scores!</a></p>
+                <p class="timer" id="timer"></p>
         </header>
         <div class="quiz-wrapper">
             <main class="coverPage" id="coverPage">
@@ -22,7 +23,7 @@
                 <p><span>Good luck, and may the coding gods be with you!</span></p>
                 <button class="btn" id="beginQuiz">Begin the Quiz Now!</button>
             </main>
-            <section class="answers" id="answers">
+            <section class="answers displayNone" id="answers">
                 <button class="btn">A</button>
                 <button class="btn">B</button>
                 <button class="btn">C</button>
@@ -38,5 +39,6 @@
             <p>&copy 2020 Alexandraws</p>
         </footer>
     </div>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
