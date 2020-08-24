@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Coding Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <p><a href="./highscores.html">View The High Scores!</a></p>
+        <p class="timer" id="timer"></p>
+    </header>
+    <div class="container">
+        <div class="quiz-wrapper">
+            <main class="coverPage" id="coverPage">
+                <h1>Welcome to the JavaScript Fundamentals Quiz!</h1>
+                <p>The goal is to answer all the questions correctly before the time runs out.</p>
+                <p>The time you have left will be on the top right of the screen. When the time runs out, or you answer all the questions the game is over. You'll receive a point for every question answered correctly, as well as how much time you have left. When the game is over you can enter your high score and initials to see if you're the top of the class!</p>
+                <p>But <span>BEWARE</span> if you answer a question incorrectly you will lose time!</p>
+                <p><span>Good luck, and may the coding gods be with you!</span></p>
+                <button class="beginQuiz btn" id="beginQuiz">Begin the Quiz Now!</button>
+            </main>
+            <div class="displayNone" id="question-wrapper">
+                        <h1 id="question">question</h1>
+                    	<button class="btn" id="opt-A">A</button>
+                    	<button class="btn" id="opt-B">B</button>
+                    	<button class="btn" id="opt-C">C</button>
+                    	<button class="btn" id="opt-D">D</button>
+            </div>
+            <section class="endCoverPage displayNone" id="endCoverPage">
+                <h1>Congratulations!</h1>
+                <p>Keep trying and improving your score, and you'll be the top of the class in no time!</p>
+                <a href="./index.html">Would you like to start over?</a>
+            </section>
+        </div>
+    </div>
+        <footer>
+            <p>&copy 2020 Alexandraws</p>
+        </footer>
+        <script src="./assets/js/script.js"></script>
+</body>
+</html>
